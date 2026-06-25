@@ -1,0 +1,25 @@
+.app {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+  background: linear-gradient(145deg, #1a1a1a 0%, #0d0d0d 100%);
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6), 0 0 0 2px #8B0000, 0 0 0 5px #0a0a0a;
+  border: 1px solid #d4af37;
+  position: relative;
+  z-index: 1;
+  min-height: 80vh;
+}
+
+h1 {
+  text-align: center;
+  color: #F5C518;
+  text-shadow: 0 0 20px rgba(245, 197, 24, 0.3);
+  letter-spacing: 3px;
+  margin-bottom: 25px;
+  font-size: 32px;
+  font-weight: bold;
+  border-bottom: 3px solid #C41E3A;
+  display: inline-block;
+  padding-bottom: 10px;
+}

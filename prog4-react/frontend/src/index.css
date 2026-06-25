@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url("assets/cinema.jpg") no-repeat fixed center center;
+  background-size: cover;
+  padding: 20px;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Overlay escuro - NÃO BLOQUEIA CLICKS */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 0;
+  pointer-events: none; /* ESSENCIAL! */
+}
